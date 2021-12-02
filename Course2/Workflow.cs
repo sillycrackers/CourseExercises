@@ -2,10 +2,9 @@
 {
     public class Workflow : IExecutable
     {
-        public int Id { get; set; }
         public virtual void Execute()
         {
-
+            throw new NotImplementedException();
         }
 
     }
