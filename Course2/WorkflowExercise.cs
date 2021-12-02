@@ -17,11 +17,10 @@
             workflows.Add(uploadVideo);
             workflows.Add(callWebService);  
 
-            foreach(var workflow in workflows)
+            foreach(Workflow workflow in workflows)
             {
-                workflow.Execute();
+                workflowEngine.Run(workflow);
             }
-
         }
     }
 }

@@ -2,15 +2,11 @@
 {
     public class WorkflowEngine
     {
-        public WorkflowEngine()
-        {
 
-        }
 
         public void Run(Workflow workflow)
         {
-
-
+            workflow.Execute();
         }
         
     }
